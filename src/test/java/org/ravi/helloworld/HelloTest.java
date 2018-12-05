@@ -17,6 +17,7 @@ public class HelloTest {
 
 	/*WebDriver driver;
 	WebElement text;
+	
 	@BeforeTest
 	public void beforeTest() {
 		System.setProperty("webdriver.gecko.driver", "resources\\geckodriver32.exe");
@@ -29,7 +30,7 @@ public class HelloTest {
 
 	@Test
 	public void f() {
-
+System.out.println("My firsst Project");
 		text = driver.findElement(By.xpath("html/body/h2"));
 		Assert.assertEquals(driver.getTitle(), "");
 		System.out.println("Test Passed");
